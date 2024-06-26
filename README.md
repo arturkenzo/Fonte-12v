@@ -33,16 +33,13 @@ Serve como um resistor variável, aplicado para controlar a corrente que chega �
 * ### LED
 Utilizado para indicar que a fonte está ligada.
 
-## Circuito no falstad
-![Screen Shot 2024-06-24 at 4 37 45 PM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/58c8345f-d820-4dd6-b9ad-2a56ab3fc841)
-
 ## Cálculos
 
 #### Tensão de Pico
 $$ V_{\text{pico}} = V_{\text{eficaz}} \times \sqrt{2} $$
 
 Onde:
-- V_{\text{eficaz}} é a tensão de saída do transformador(16.9V).
+-  V(eficaz) é a tensão de saída do transformador(16.9V).
 
 Portanto:
 
@@ -51,6 +48,8 @@ $$ V_{\text{pico}} = 16.9V \times \sqrt{2} = 23.9V $$
 Pelo fato do diodo necessitar 0.7v para funcionar, ao passar pela ponte de diodos a tensão de pico no circuito passa a ser:
 
 $$  V_{\text{pico}} = 23.9V - 1.4V = 22.5V $$
+
+##
 
 ### Cálculo da Tensão de Ripple (Vripple)
 
@@ -62,6 +61,8 @@ Substituindo o valor da tensão:
 
 $$ V_{\text{ripple}} = 0,1 \times 22.5V = 2.25 $$
 
+##
+
 ### Cálculo da Tensão Média
 
 $$ V_{\text{médio}} = V_{\text{pico}} - \frac{V_{\text{ripple}}}{2} $$
@@ -69,6 +70,8 @@ $$ V_{\text{médio}} = V_{\text{pico}} - \frac{V_{\text{ripple}}}{2} $$
 Substituido valores:
 
 $$ V_{\text{médio}} = 22.5V - 2.25V = 20.25V $$
+
+##
     
 ### Correntes:
 
@@ -76,34 +79,37 @@ Para calcular a corrente total, realizamos os seguintes cálculos:
 
 1. Corrente através do LED:
 
-$$ i_{LED} = \frac{V_{máxs} - V_{LED}}{R_{LED}} = \frac{21,1V - 9V}{4400 \ \Omega} \approx 2,75 \ mA $$
+$$ i_{LED} = \frac{V_{máxs} - V_{LED}}{R_{LED}} = \frac{22.5V - 2V}{3000 \ \Omega} = 6.83 \ mA $$
 
 2. Corrente através do diodo Zener:
 
-$$ i_{ZENNER} = \frac{V_{máxs} - V_{ZENNER}}{R_{ZENNER}} = \frac{21,1V - 12,9V}{2200 \ \Omega} \approx 3,72 \ mA $$
+$$ i_{ZENNER} = \frac{V_{máxs} - V_{ZENNER}}{R_{ZENNER}} = \frac{22.5V - 13V}{1000 \ \Omega} = 9.5 \ mA $$
 
 3. Corrente através do potenciômetro:
 
-$$ i_{POTENCIÔMETRO} = \frac{V_{máxs}}{R_{POTENCIÔMETRO}} = \frac{21,1V}{5000 \ \Omega} \approx 4,22 \ mA $$
+$$ i_{POTENCIÔMETRO} = \frac{V_{máxs}}{R_{POTENCIÔMETRO}} = \frac{22.5V}{13200 \ \Omega} = 1.70 \ mA $$
 
-4. Corrente através do transistor:
+4. Corrente através do dispositivo carregado:
+Pela especificação do projeto desejado:
 
-$$ i_{TRANSISTOR} = \frac{V_{máxs}}{R_{TRANSISTOR}} = \frac{21,1V}{230 \ \Omega} \approx 91,73 \ mA $$
+$$ i_{dispositivo} = \frac{V_{dispositivo}}{R_{dispositivo}} = \frac{12V}{120 \ \Omega} = 100 \ mA $$
 
 Somando todas as correntes, obtemos a corrente total:
 
-$$ i_{TOTAL} = 2,75 \ mA + 3,72 \ mA + 4,22 \ mA + 91,73 \ mA = 102,42 \ mA $$
+$$ i_{TOTAL} = 6.83 \ mA + 9.5 \ mA + 1.7 \ mA + 100 \ mA = 118 \ mA $$
 
 ##
 ### Capacitância:
 
-Para o cálculo da capacitância, usamos a frequência f = 120 Hz, pois a frequência de saída é o dobro da frequência de entrada devido à retificação em onda completa na ponte:
+$$ C = \frac{i_{TOTAL}}{2 \cdot f \cdot V_{ripple}} = \frac{118 \cdot 10^{-3} \ A}{2 \cdot 60 \ Hz \cdot 2,25 \ V} = 437.14 \ \mu F $$
 
-$$ C = \frac{i_{TOTAL}}{f \cdot V_{ripple}} = \frac{102,42 \times 10^{-3} \ A}{120 \ Hz \cdot 2,1 \ V} \approx 405,47 \ \mu F $$
+O capacitor com valores mais próximos do calculado foi o de 470 μF e 50V
 
-O valor comercial mais próximo do valor teórico é 470 µF 50V. Optamos por um valor com uma margem de aproximadamente 16% acima do valor teórico.
 
-##
+## Circuito no falstad
+![Screen Shot 2024-06-24 at 4 37 45 PM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/58c8345f-d820-4dd6-b9ad-2a56ab3fc841)
+link para o circuito: https://tinyurl.com/yv4239pf
+
 
 
 
