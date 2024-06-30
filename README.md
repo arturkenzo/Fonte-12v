@@ -123,9 +123,9 @@ Explicação : https://youtu.be/kjJQ-7R_JkI?si=ItOPBa2mSkVKAqxD
 
 ## Autores :
 
-* Artur Kenzo Obara Kawazoe
-* João Victor Alonso de Mello
-* Murilo Leandro Garcia
+* Artur Kenzo Obara Kawazoe - 15652663    
+* João Victor Alonso de Mello - 10951790
+* Murilo Leandro Garcia - 15480943
 
 
 
