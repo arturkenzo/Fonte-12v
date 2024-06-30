@@ -118,6 +118,7 @@ link para o circuito: https://tinyurl.com/yv4239pf
 
 ## Vídeos
 Funcionamento : https://youtu.be/CFbQPkqZoBA?si=sZFjp3oOQ8Yp5rht
+
 Explicação : https://youtu.be/kjJQ-7R_JkI?si=ItOPBa2mSkVKAqxD
 
 ## Autores :
