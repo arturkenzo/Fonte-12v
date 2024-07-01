@@ -118,10 +118,9 @@ link para o circuito: [https://tinyurl.com/yv4239pf](https://tinyurl.com/2ear38x
 ![Screen Shot 2024-07-01 at 10 51 00 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/95fe7174-6d24-477a-ac77-6137011e5b10)
 
 ## Vídeos
-Funcionamento : https://youtu.be/CFbQPkqZoBA?si=sZFjp3oOQ8Yp5rht
+Funcionamento : https://youtube.com/shorts/RsokRgWNEgc
 
-Explicação : https://youtu.be/kjJQ-7R_JkI?si=ItOPBa2mSkVKAqxD
-
+Explicação : https://youtu.be/eeg3dYRqGhw?si=Rri45GYi8ZUyH9av
 ## Autores :
 
 * Artur Kenzo Obara Kawazoe - 15652663    
