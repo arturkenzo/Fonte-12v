@@ -3,10 +3,10 @@
 | componenente | quantidade | preço R$|
 | ------------- | ----------- | ------------- |
 | transformador 16.9v | 1 | emprestado |
-| resistor 1k 0.25w | 4 | 4 * 0.07 |
-| resistor 100 0.25w | 1 | 0.07 |
-| resistor 120 2w | 1 | 1.90 |
-| resistor 2.2k 0.25w | 1 | emprestado |
+| resistor 1k 0.25w | 5 | 5 * 0.07 |
+| resistor 100 0.25w | 2 | 0.07 |
+| resistor 120 2w | 2 | 2 * 1.90 |
+| resistor 330 0.25w | 1 | emprestado |
 | LED vermelho | 1 | 0.50 |
 | potênciometro 10k | 1 | 7.00 |
 | transistor NPN | 1 | 1.55 |
@@ -15,7 +15,7 @@
 | protoboard | 1 | emprestado |
 | diodo zener 13v | 1 | 0.50 |
 | jumper | 9 | 9 * 0.70|
-| total | 18 | 23.17 |
+| total | 18 | 25.21 |
 
 ## Explicação dos componentes
 * ### Transformador
@@ -87,7 +87,7 @@ $$ i_{ZENNER} = \frac{V_{máxs} - V_{ZENNER}}{R_{ZENNER}} = \frac{22.5V - 13V}{1
 
 3. Corrente através do potenciômetro:
 
-$$ i_{POTENCIÔMETRO} = \frac{V_{máxs}}{R_{POTENCIÔMETRO}} = \frac{22.5V}{13200 \ \Omega} = 1.70 \ mA $$
+$$ i_{POTENCIÔMETRO} = \frac{V_{máxs}}{R_{POTENCIÔMETRO}} = \frac{22.5V}{11330 \ \Omega} = 1.98 \ mA $$
 
 4. Corrente através do dispositivo carregado:
 Pela especificação do projeto desejado:
@@ -96,7 +96,7 @@ $$ i_{dispositivo} = \frac{V_{dispositivo}}{R_{dispositivo}} = \frac{12V}{120 \ 
 
 Somando todas as correntes, obtemos a corrente total:
 
-$$ i_{TOTAL} = 6.83 \ mA + 9.5 \ mA + 1.7 \ mA + 100 \ mA = 118 \ mA $$
+$$ i_{TOTAL} = 6.83 \ mA + 9.5 \ mA + 1.98 \ mA + 100 \ mA = 118 \ mA $$
 
 ##
 ### Capacitância:
@@ -107,14 +107,15 @@ O capacitor com valores mais próximos do calculado foi o de 470 μF e 50V
 
 
 ## Circuito no falstad
-![Screen Shot 2024-06-24 at 4 37 45 PM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/58c8345f-d820-4dd6-b9ad-2a56ab3fc841)
-link para o circuito: https://tinyurl.com/yv4239pf
+![Screen Shot 2024-07-01 at 10 47 07 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/fe80ed29-d668-4f3f-bb52-e5e1243fb663)
+
+link para o circuito: [https://tinyurl.com/yv4239pf](https://tinyurl.com/2ear38xq)
 
 ## Circuito no EAGLE
-![Screen Shot 2024-06-30 at 2 43 59 PM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/01ed9618-530c-413b-bb30-2cd0d1ebf8f4)
+![Screen Shot 2024-07-01 at 10 51 47 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/1e5b13a0-0bd2-4efd-98c3-c520a975d593)
 
 ## PCB
-![Screen Shot 2024-06-30 at 2 44 44 PM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/ff7c7447-7510-425a-8aeb-d1505db67c8e)
+![Screen Shot 2024-07-01 at 10 51 00 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/95fe7174-6d24-477a-ac77-6137011e5b10)
 
 ## Vídeos
 Funcionamento : https://youtu.be/CFbQPkqZoBA?si=sZFjp3oOQ8Yp5rht
