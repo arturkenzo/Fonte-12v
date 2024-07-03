@@ -107,9 +107,9 @@ O capacitor com valores mais próximos do calculado foi o de 470 μF e 50V
 
 
 ## Circuito no falstad
-![Screen Shot 2024-07-01 at 10 47 07 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/fe80ed29-d668-4f3f-bb52-e5e1243fb663)
+![Screen Shot 2024-07-01 at 2 39 46 PM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/c58c90e7-7349-460e-9890-659d25c17492)
 
-link para o circuito: [https://tinyurl.com/yv4239pf](https://tinyurl.com/2ear38xq)
+link para o circuito: https://tinyurl.com/2zbfb6rx
 
 ## Circuito no EAGLE
 ![Screen Shot 2024-07-01 at 10 51 47 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/1e5b13a0-0bd2-4efd-98c3-c520a975d593)
@@ -118,9 +118,10 @@ link para o circuito: [https://tinyurl.com/yv4239pf](https://tinyurl.com/2ear38x
 ![Screen Shot 2024-07-01 at 10 51 00 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/95fe7174-6d24-477a-ac77-6137011e5b10)
 
 ## Vídeos
-Funcionamento : https://youtube.com/shorts/RsokRgWNEgc
+Funcionamento : https://drive.google.com/file/d/1HlZTX9TRSr7dpk6FaQ_0XB5ftFXJopGl/view?usp=drive_link
 
-Explicação : https://youtu.be/eeg3dYRqGhw?si=Rri45GYi8ZUyH9av
+Explicação : https://drive.google.com/file/d/1QnqMu7LzmLW0nfG7pSB7m6jo2hSP_LLy/view?usp=drive_link
+
 ## Autores :
 
 * Artur Kenzo Obara Kawazoe - 15652663    
