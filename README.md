@@ -112,10 +112,12 @@ O capacitor com valores mais próximos do calculado foi o de 470 μF e 50V
 link para o circuito: https://tinyurl.com/2zbfb6rx
 
 ## Circuito no EAGLE
-![Screen Shot 2024-07-01 at 10 51 47 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/1e5b13a0-0bd2-4efd-98c3-c520a975d593)
+![Screen Shot 2024-07-03 at 8 59 37 PM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/5a50236d-cd6f-46dc-aa01-b8e1913e0d1e)
+
 
 ## PCB
-![Screen Shot 2024-07-01 at 10 51 00 AM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/95fe7174-6d24-477a-ac77-6137011e5b10)
+![Screen Shot 2024-07-03 at 8 59 56 PM](https://github.com/arturkenzo/Fonte-12v/assets/170135026/14815588-6e32-4a3a-8b18-d1ea3100c2a3)
+
 
 ## Vídeos
 Funcionamento : https://drive.google.com/file/d/1HlZTX9TRSr7dpk6FaQ_0XB5ftFXJopGl/view?usp=drive_link
